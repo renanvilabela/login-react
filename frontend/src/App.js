@@ -63,7 +63,7 @@ function App() {
   };
 
   return (
-    <div>
+    <main>
       <h1>Login</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -81,7 +81,7 @@ function App() {
         <button type="submit">Entrar</button>
       </form>
       <p>{message}</p>
-    </div>
+    </main>
   );
 }
 
