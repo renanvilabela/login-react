@@ -66,13 +66,13 @@ function App() {
     <main>
       <h1>Login</h1>
       <form onSubmit={handleSubmit}>
-        <input
+        <input id='email'
           type="email"
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <input
+        <input id='senha'
           type="password"
           placeholder="Senha"
           value={password}
