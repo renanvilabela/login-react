@@ -10,7 +10,7 @@ main{
   justify-content: center;
   align-items: center;
   min-height: 100vh; 
-  background: linear-gradient(45deg, #201E43, #134B70, #508C9B);
+  background: linear-gradient(45deg, #201E43, #134B70, #508C9B, #FDFFE2);
   background-size: 300% 300%;
   animation: colors 15s ease infinite;
   flex-direction: column;
