@@ -45,13 +45,13 @@ input {
 button {
   padding: 8px 16px;
   background-color: #EEEDEB;
-  color: #134B70;
+  color: #201E43;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  color: #508C9B;
+  color: aliceblue;
   background-color: #201E43;
 }
 
