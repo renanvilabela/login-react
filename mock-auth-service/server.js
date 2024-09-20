@@ -4,8 +4,12 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = 3000;
 
+const cors = require('cors');
+
 // Middleware para parsear o corpo das requisições
 app.use(bodyParser.json());
+
+app.use(cors());
 
 // Usuários e senhas mock
 const mockUsers = [
